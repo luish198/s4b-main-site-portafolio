@@ -1,11 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Navbar from "./components/Navbar";
+
+//React Fontawesome imports
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faBars} from '@fortawesome/react-fontawesome'
+
 
 function App() {
   return (
     <>
-      <h4>Luis H Portafolio !! 2021</h4>
+      <Navbar />
     </>
   );
 }
