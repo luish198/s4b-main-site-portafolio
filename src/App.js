@@ -3,6 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Particles from "react-tsparticles";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
+import AboutMe from "./components/AboutMe";
+
 
 
 
@@ -80,7 +82,7 @@ function App() {
             enable: true,
             outMode: "bounce",
             random: false,
-            speed: 6,
+            speed: 3,
             straight: false,
           },
           number: {
@@ -109,6 +111,7 @@ function App() {
       }} />
       <Navbar />
       <Header />
+      <AboutMe />
 
     </>
   );
