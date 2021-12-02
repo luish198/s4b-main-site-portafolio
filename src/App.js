@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Services from "./components/Services";
+import Experience from "./components/Experience";
 
 
 
@@ -114,6 +115,7 @@ function App() {
       <Header />
       <AboutMe />
       <Services/>
+      <Experience/>
 
     </>
   );
