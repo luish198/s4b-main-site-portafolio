@@ -7,6 +7,7 @@ const Header = ()=>{
         <>
         <div className="header-wraper">
             <div className="main-info">
+            
                 <h1>web development and websites promotions</h1>
                 <Typed
                 className="typed-text"

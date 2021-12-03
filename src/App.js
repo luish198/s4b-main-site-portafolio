@@ -6,23 +6,20 @@ import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Services from "./components/Services";
 import Experience from "./components/Experience";
-
-
-
-
+import Portfolio from "./components/Portfolio";
 
 
 
 function App() {
 
   const particlesInit = (main) => {
-    console.log(main);
+    console.log("here is the main",main);
 
     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
   };
 
   const particlesLoaded = (container) => {
-    console.log(container);
+    console.log("here is the",container);
   };
 
   const canvasClassName = "tsparticles-canvas-el"
@@ -36,7 +33,7 @@ function App() {
       loaded={particlesLoaded}
       options={{
         
-        fpsLimit: 60,
+        fpsLimit: 30,
         interactivity: {
           events: {
             onClick: {
@@ -84,7 +81,7 @@ function App() {
             enable: true,
             outMode: "bounce",
             random: false,
-            speed: 3,
+            speed: 1,
             straight: false,
           },
           number: {
@@ -116,6 +113,7 @@ function App() {
       <AboutMe />
       <Services/>
       <Experience/>
+      <Portfolio />
 
     </>
   );
