@@ -80,7 +80,7 @@ nav ul li{
   background: url(wall-and-laptop-background.jpg);
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info{
@@ -402,6 +402,10 @@ nav ul li{
   cursor: pointer;
 }
 
+.popup-wrapper {
+  margin-top: 7rem;
+}
+
 
 /*******************************************Popup Box*********************************************/
 
@@ -620,4 +624,30 @@ textarea.form-control {
 
 }
 
-/*******************************************      ****************************/
+/*******************************************FOOTER****************************/
+
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-dark-grey);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor:pointer;
+}
+
+.footer p{
+  margin-bottom: 0;
+}
+
+.social-icons-box{
+  display:flex !important;
+  justify-content: center;
+}

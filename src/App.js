@@ -9,6 +9,7 @@ import Experience from "./components/Experience";
 import Portfolio from "./components/Portfolio";
 import Testimonials from "./components/Testimonials";
 import Contacts from "./components/Contacts";
+import Footer from "./components/Footer";
 
 
 
@@ -119,6 +120,8 @@ function App() {
       <Portfolio />
       <Testimonials />
       <Contacts />
+      <Footer />
+
 
     </>
   );
