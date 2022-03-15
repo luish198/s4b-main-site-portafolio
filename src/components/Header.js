@@ -8,10 +8,10 @@ const Header = ()=>{
         <div id="home" className="header-wraper">
             <div className="main-info">
             
-                <h1>web development and websites promotions</h1>
+                <h1>web development and Business Solutions</h1>
                 <Typed
                 className="typed-text"
-                strings={["web Design", "Web Development", "Facebook Ads SMM", "Google Ads"]}
+                strings={["Web Development","Full Stack Applications", "Business Solutions", "Process Management", "Data Analysis", "Reporting"]}
                 typeSpeed={40}
                 backSpeed={60}
                 loop
